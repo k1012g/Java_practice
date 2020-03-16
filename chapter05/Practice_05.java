@@ -1,8 +1,8 @@
 public class Practice_05 {
 
 	public static void main(String[] args) {
-		System.out.println("底辺10cm, 高さ5cmの三角形の面積は" + calcTriangleArea(10.0, 5.0) + "平方cmです。");
-		System.out.println("半径5cmの円の面積は" + calcCircleArea(5.0) + "平方cmです。");
+		System.out.println("三角形の面積: " + calcTriangleArea(10.0, 5.0) + "平方cm");
+		System.out.println("円の面積: " + calcCircleArea(5.0) + "平方cm");
 	}
 
 	// 三角形の面積を返すメソッド
