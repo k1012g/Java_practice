@@ -1,9 +1,9 @@
 public class Cleric {
 	String name;
 	int hp = 50;
-	final int MAX_HP = 50;
+	static final int MAX_HP = 50;
 	int mp = 50;
-	final int MAX_MP = 50;
+	static final int MAX_MP = 50;
 
 
 	// 自己回復のメソッド
